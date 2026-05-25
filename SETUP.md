@@ -28,6 +28,14 @@ python -m venv .venv
 cd ..
 ```
 
+If backend dependencies were already installed before this repo update, refresh them:
+
+```bash
+cd backend
+./.venv/Scripts/python.exe -m pip install --upgrade -r requirements.txt
+cd ..
+```
+
 ## 3. Install Frontend
 
 ```bash
@@ -144,4 +152,3 @@ Do not use this in Git Bash:
 ```text
 .venv\Scripts\activate
 ```
-
